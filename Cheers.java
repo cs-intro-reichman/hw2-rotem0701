@@ -7,7 +7,7 @@ public class Cheers {
             int isSpecial =0; 
             for (int i =0; i < cheer.length(); i++){
                 isSpecial = (specialLetters.indexOf(cheer.charAt(i)));
-                System.out.println("Give me " + (isSpecial == -1 ? "a" : "an") + " " + cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
+                System.out.println("Give me " + (isSpecial == -1 ? "a " : "an") + " " + cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
             }
             System.out.println("What does that spell?");
             for (int j=0; j < number; j++){
