@@ -10,6 +10,6 @@ public class CalcPi {
 			sum += (i % 2 ==0 ? fraction : -fraction);
 		}
 		System.out.println("pi according to Java: " + realPiValue);
-		System.out.println("pi, approximated: " + sum * 4);
+		System.out.println("pi, approximated:     " + sum * 4);
 	}
 }
