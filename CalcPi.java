@@ -5,7 +5,7 @@ public class CalcPi {
 		double realPiValue = Math.PI;
 		double sum = 0.0;
 		double fraction; 
-		for (int i = 0; i < number; i ++){
+		for (int i = 0; i < number; i ++) {
 			fraction = 1.0 / (2 * i + 1);
 			sum += (i % 2 ==0 ? fraction : -fraction);
 		}
