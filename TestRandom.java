@@ -5,22 +5,23 @@ public  class  TestRandom {
 		int countGreater = 0;
 		int countLessOrEven = 0;
 		while (nTimes > 0) {
-			if (Math.random() > 0.5){
+			if (Math.random() > 0.5) {
 				countGreater ++; 
 			}
-			else{
+			else {
 				countLessOrEven ++;
 			}
 			nTimes --;
 		}
+		
 		System.out.println("> 0.5: " + countGreater + " times");
 		System.out.println("<= 0.5: " +countLessOrEven + " times");
 
-		if (countGreater != 0 && countLessOrEven != 0 ){
-			 if (countGreater > countLessOrEven){
+		if (countGreater != 0 && countLessOrEven != 0 ) {
+			 if (countGreater > countLessOrEven) {
 				System.out.println ((double)countLessOrEven / countGreater );
 				}
-				else{
+				else {
 					System.out.println ((double)countGreater / countLessOrEven);
 				}
 	
